@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="RoundRectLayout">
+        <attr name="round_rect_circle" format="boolean"/>
+        <attr name="round_rect_corner" format="dimension"/>
+        <attr name="round_rect_corner_top_to_left" format="dimension"/>
+        <attr name="round_rect_corner_top_to_right" format="dimension"/>
+        <attr name="round_rect_corner_bottom_to_left" format="dimension"/>
+        <attr name="round_rect_corner_bottom_to_right" format="dimension"/>
+        <attr name="round_rect_stroke_color" format="color"/>
+        <attr name="round_rect_stroke_width" format="dimension"/>
+    </declare-styleable>
+</resources>
