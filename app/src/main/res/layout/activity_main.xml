@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.android.round.TestActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <com.android.round.weight.RoundRectLayout
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="30dp"
+                    app:round_rect_circle="true">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerCrop"
+                        android:src="@mipmap/club_bg"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_alignParentBottom="true"
+                        android:background="@mipmap/bottom_bg"
+                        android:gravity="center"
+                        android:textColor="@android:color/white"
+                        android:textSize="10sp"/>
+
+                </com.android.round.weight.RoundRectLayout>
+
+                <com.android.round.weight.RoundRectLayout
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_margin="30dp"
+                    app:round_rect_circle="true"
+                    app:round_rect_stroke_color="@android:color/holo_red_light"
+                    app:round_rect_stroke_width="5dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerCrop"
+                        android:src="@mipmap/club_bg"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_alignParentBottom="true"
+                        android:background="@mipmap/bottom_bg"
+                        android:gravity="center"
+                        android:text="皮一下，很开心"
+                        android:textColor="@android:color/white"
+                        android:textSize="10sp"/>
+
+                </com.android.round.weight.RoundRectLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <com.android.round.weight.RoundRectLayout
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="30dp"
+                    app:round_rect_corner="20dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerCrop"
+                        android:src="@mipmap/club_bg"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_alignParentBottom="true"
+                        android:background="@mipmap/intro_bg"
+                        android:gravity="center"
+                        android:text="皮一下，很开心"
+                        android:textColor="@android:color/white"
+                        android:textSize="10sp"/>
+
+                </com.android.round.weight.RoundRectLayout>
+
+                <com.android.round.weight.RoundRectLayout
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_margin="30dp"
+                    app:round_rect_corner_top_to_left="50dp"
+                    app:round_rect_stroke_color="@android:color/holo_red_light"
+                    app:round_rect_stroke_width="5dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerCrop"
+                        android:src="@mipmap/club_bg"/>
+
+
+                </com.android.round.weight.RoundRectLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <com.android.round.weight.RoundRectLayout
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="30dp"
+                    app:round_rect_corner_top_to_right="80dp"
+                    app:round_rect_stroke_color="@android:color/holo_red_light"
+                    app:round_rect_stroke_width="5dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerCrop"
+                        android:src="@mipmap/club_bg"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@mipmap/hot"/>
+
+
+                </com.android.round.weight.RoundRectLayout>
+
+                <com.android.round.weight.RoundRectLayout
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_margin="30dp"
+                    app:round_rect_corner_bottom_to_left="80dp"
+                    app:round_rect_stroke_color="@android:color/holo_red_light"
+                    app:round_rect_stroke_width="5dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerCrop"
+                        android:src="@mipmap/club_bg"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@mipmap/hot"/>
+
+
+                </com.android.round.weight.RoundRectLayout>
+
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
