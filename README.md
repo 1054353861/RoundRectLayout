@@ -4,6 +4,7 @@
 
 一个圆角图片的解决方案，解决设计需要不同圆角图片时，避免重复让设计师出不一样的切图。
 
+![圆角图形.jpg](https://upload-images.jianshu.io/upload_images/1933299-7789175d0cf49689.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ---
 
